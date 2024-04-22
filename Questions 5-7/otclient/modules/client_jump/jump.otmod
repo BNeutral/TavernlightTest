@@ -1,0 +1,10 @@
+Module
+  name: client_jump
+  description: Jump Minigame
+  author: Test
+  website: https://example.com
+  sandboxed: true
+  scripts: [ jump ]
+  @onLoad: init()
+  @onUnload: terminate()
+
