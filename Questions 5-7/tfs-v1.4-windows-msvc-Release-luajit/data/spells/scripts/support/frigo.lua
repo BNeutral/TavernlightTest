@@ -6,6 +6,8 @@ local interval = 500
 local fullArea = AREA_FRIGO_BASE
 local combats = {}
 
+-- Important note: These should actually be precalculated and only cycle to a few patterns as to not fill the server with pointless calculations and garbage
+-- But for this test I'm leaving it like this
 local function randomizeArea()
     local randomizedArea = {}
     for i = 1, #fullArea do
